@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C500A6E9372171F5092A1F5 /* libPods-XFAdvanceTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA5B8C218B9E66014BC398C /* libPods-XFAdvanceTableView.a */; };
 		9E13963320426FE600D926A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13963220426FE600D926A4 /* AppDelegate.m */; };
 		9E13963620426FE600D926A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13963520426FE600D926A4 /* ViewController.m */; };
 		9E13963920426FE600D926A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E13963720426FE600D926A4 /* Main.storyboard */; };
@@ -15,6 +16,11 @@
 		9E13964120426FE600D926A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13964020426FE600D926A4 /* main.m */; };
 		9E13964B20426FE600D926A4 /* XFAdvanceTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13964A20426FE600D926A4 /* XFAdvanceTableViewTests.m */; };
 		9E13965620426FE600D926A4 /* XFAdvanceTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13965520426FE600D926A4 /* XFAdvanceTableViewUITests.m */; };
+		9E13966E2042703A00D926A4 /* ReuseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1396672042703A00D926A4 /* ReuseScrollView.m */; };
+		9E13966F2042703A00D926A4 /* TableIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1396692042703A00D926A4 /* TableIndexPath.m */; };
+		9E1396702042703A00D926A4 /* TowDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13966B2042703A00D926A4 /* TowDTableViewCell.m */; };
+		9E1396712042703A00D926A4 /* TwoDTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13966D2042703A00D926A4 /* TwoDTableView.m */; };
+		9E139675204270BF00D926A4 /* UIColor+ColorUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E139674204270BF00D926A4 /* UIColor+ColorUntil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018FC7BEA32D229E10832DA2 /* Pods-XFAdvanceTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFAdvanceTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-XFAdvanceTableView/Pods-XFAdvanceTableView.release.xcconfig"; sourceTree = "<group>"; };
+		854CB388E9FD1A443AD5E97D /* Pods-XFAdvanceTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFAdvanceTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XFAdvanceTableView/Pods-XFAdvanceTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		9CA5B8C218B9E66014BC398C /* libPods-XFAdvanceTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XFAdvanceTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E13962E20426FE600D926A4 /* XFAdvanceTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFAdvanceTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E13963120426FE600D926A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9E13963220426FE600D926A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,17 @@
 		9E13965120426FE600D926A4 /* XFAdvanceTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFAdvanceTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E13965520426FE600D926A4 /* XFAdvanceTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFAdvanceTableViewUITests.m; sourceTree = "<group>"; };
 		9E13965720426FE600D926A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E1396642042702B00D926A4 /* ReuseScrollViewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReuseScrollViewInterface.h; sourceTree = "<group>"; };
+		9E1396662042703A00D926A4 /* ReuseScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReuseScrollView.h; sourceTree = "<group>"; };
+		9E1396672042703A00D926A4 /* ReuseScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReuseScrollView.m; sourceTree = "<group>"; };
+		9E1396682042703A00D926A4 /* TableIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableIndexPath.h; sourceTree = "<group>"; };
+		9E1396692042703A00D926A4 /* TableIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableIndexPath.m; sourceTree = "<group>"; };
+		9E13966A2042703A00D926A4 /* TowDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowDTableViewCell.h; sourceTree = "<group>"; };
+		9E13966B2042703A00D926A4 /* TowDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TowDTableViewCell.m; sourceTree = "<group>"; };
+		9E13966C2042703A00D926A4 /* TwoDTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoDTableView.h; sourceTree = "<group>"; };
+		9E13966D2042703A00D926A4 /* TwoDTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoDTableView.m; sourceTree = "<group>"; };
+		9E139673204270BF00D926A4 /* UIColor+ColorUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorUntil.h"; sourceTree = "<group>"; };
+		9E139674204270BF00D926A4 /* UIColor+ColorUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorUntil.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C500A6E9372171F5092A1F5 /* libPods-XFAdvanceTableView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F3C249CD2FCDE229D3856B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CA5B8C218B9E66014BC398C /* libPods-XFAdvanceTableView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9E13962520426FE600D926A4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,8 @@
 				9E13964920426FE600D926A4 /* XFAdvanceTableViewTests */,
 				9E13965420426FE600D926A4 /* XFAdvanceTableViewUITests */,
 				9E13962F20426FE600D926A4 /* Products */,
+				A917B105FC652BD62663D0E9 /* Pods */,
+				3F3C249CD2FCDE229D3856B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +132,8 @@
 		9E13963020426FE600D926A4 /* XFAdvanceTableView */ = {
 			isa = PBXGroup;
 			children = (
+				9E139672204270BF00D926A4 /* UIColor+ColorUntil */,
+				9E1396632042700A00D926A4 /* AdvanceTableView */,
 				9E13963120426FE600D926A4 /* AppDelegate.h */,
 				9E13963220426FE600D926A4 /* AppDelegate.m */,
 				9E13963420426FE600D926A4 /* ViewController.h */,
@@ -132,6 +165,48 @@
 			path = XFAdvanceTableViewUITests;
 			sourceTree = "<group>";
 		};
+		9E1396632042700A00D926A4 /* AdvanceTableView */ = {
+			isa = PBXGroup;
+			children = (
+				9E1396652042703A00D926A4 /* 2DTableView */,
+				9E1396642042702B00D926A4 /* ReuseScrollViewInterface.h */,
+			);
+			path = AdvanceTableView;
+			sourceTree = "<group>";
+		};
+		9E1396652042703A00D926A4 /* 2DTableView */ = {
+			isa = PBXGroup;
+			children = (
+				9E1396662042703A00D926A4 /* ReuseScrollView.h */,
+				9E1396672042703A00D926A4 /* ReuseScrollView.m */,
+				9E1396682042703A00D926A4 /* TableIndexPath.h */,
+				9E1396692042703A00D926A4 /* TableIndexPath.m */,
+				9E13966A2042703A00D926A4 /* TowDTableViewCell.h */,
+				9E13966B2042703A00D926A4 /* TowDTableViewCell.m */,
+				9E13966C2042703A00D926A4 /* TwoDTableView.h */,
+				9E13966D2042703A00D926A4 /* TwoDTableView.m */,
+			);
+			path = 2DTableView;
+			sourceTree = "<group>";
+		};
+		9E139672204270BF00D926A4 /* UIColor+ColorUntil */ = {
+			isa = PBXGroup;
+			children = (
+				9E139673204270BF00D926A4 /* UIColor+ColorUntil.h */,
+				9E139674204270BF00D926A4 /* UIColor+ColorUntil.m */,
+			);
+			path = "UIColor+ColorUntil";
+			sourceTree = "<group>";
+		};
+		A917B105FC652BD62663D0E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				854CB388E9FD1A443AD5E97D /* Pods-XFAdvanceTableView.debug.xcconfig */,
+				018FC7BEA32D229E10832DA2 /* Pods-XFAdvanceTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E13965A20426FE600D926A4 /* Build configuration list for PBXNativeTarget "XFAdvanceTableView" */;
 			buildPhases = (
+				C9CADBDDC42A9AF008DE50F9 /* [CP] Check Pods Manifest.lock */,
 				9E13962A20426FE600D926A4 /* Sources */,
 				9E13962B20426FE600D926A4 /* Frameworks */,
 				9E13962C20426FE600D926A4 /* Resources */,
+				EB87622300A3B68FE8856246 /* [CP] Embed Pods Frameworks */,
+				DF0C94FC0B76D9A630054805 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +338,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C9CADBDDC42A9AF008DE50F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XFAdvanceTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF0C94FC0B76D9A630054805 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XFAdvanceTableView/Pods-XFAdvanceTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB87622300A3B68FE8856246 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XFAdvanceTableView/Pods-XFAdvanceTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E13962A20426FE600D926A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,7 +396,12 @@
 			files = (
 				9E13963620426FE600D926A4 /* ViewController.m in Sources */,
 				9E13964120426FE600D926A4 /* main.m in Sources */,
+				9E139675204270BF00D926A4 /* UIColor+ColorUntil.m in Sources */,
+				9E13966E2042703A00D926A4 /* ReuseScrollView.m in Sources */,
 				9E13963320426FE600D926A4 /* AppDelegate.m in Sources */,
+				9E13966F2042703A00D926A4 /* TableIndexPath.m in Sources */,
+				9E1396702042703A00D926A4 /* TowDTableViewCell.m in Sources */,
+				9E1396712042703A00D926A4 /* TwoDTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +562,7 @@
 		};
 		9E13965B20426FE600D926A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854CB388E9FD1A443AD5E97D /* Pods-XFAdvanceTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -437,11 +572,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fansooxx.XFAdvanceTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		9E13965C20426FE600D926A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018FC7BEA32D229E10832DA2 /* Pods-XFAdvanceTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +588,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fansooxx.XFAdvanceTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
